@@ -1,0 +1,10 @@
+<html>
+    <head> 
+        <title>first page</title>  
+    </head>
+    <body bgcolor="#8a7f71">
+        <h1>
+            <font color="#fefeee"> White headline </font>
+        </h1> 
+    </body>
+</html>

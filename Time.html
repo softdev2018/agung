@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+	<title>Second page</title> 
+</head>
+    <body id="body">
+<link rel="stylesheet" href="css/TimeCircles.css">
+	<section id="moment" class="works clearfix">
+		<div class="container">
+			<div class="sec-sub-title text-center">
+				<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+			</div>
+			
+			<div class="timing">
+				<div id="count-down" data-date="2018-01-27 23:59:59"></div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery-countTo.js"></script>
+	<script src="js/TimeCircles.js"></script>
+    <script>
+      $("#count-down").TimeCircles(
+       {   
+           circle_bg_color: "#8a7f71",
+           use_background: true,
+           bg_width: 1.0,
+           fg_width: 0.02,
+           time: {
+                Days: { color: "#fefeee" },
+                Hours: { color: "#fefeee" },
+                Minutes: { color: "#fefeee" },
+                Seconds: { color: "#fefeee" }
+            }
+       }
+    );
+    </script>
+    </body>
+</html>
